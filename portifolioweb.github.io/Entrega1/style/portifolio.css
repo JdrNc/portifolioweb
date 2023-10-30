@@ -1,0 +1,43 @@
+
+@import "./header.css";
+body{
+    background-color: #c4c4c4;
+}
+main{
+    margin: 80px 80px;
+    background-color: #fff;
+    display: grid;
+    max-width: 2000px;
+    padding: 40px 40px;
+    border-radius: 8px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    box-shadow: 2px 2px 4px 4px rgba(16, 16, 16, 0.42);
+}
+
+.subtitulos{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+   color: #141414;
+}
+.subheader{
+    grid-column: 1 / -1;
+    margin-bottom: 20px;
+} 
+iframe{
+    border-radius: 4px;
+    width: 100%;
+}
+
+.projetos-texto{
+    color: #525252;
+    font-size: 1.5rem;
+}
+.desc{
+    font-size: 1.125rem;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
